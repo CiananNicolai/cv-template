@@ -14,6 +14,8 @@
 	<!-- Link to Bootstrap Icons-->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
 
+	<script src="myScripts.js"></script> 
+
 </head>
 
 <body data-spy="scroll" data-target="#navbar-main" class="content">
@@ -25,7 +27,7 @@
 			
 			<ul class="nav nav-pills">  
 				<li class="nav-item">
-					<a class="nav-link" href="#aboutUs">Skills</a>
+					<a class="nav-link" href="#skills">Skills</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="#experience">Experience</a>
@@ -74,9 +76,9 @@
 					<button class="btn btn-secondary" type="button">Contact Me</button>
 				</div>
 			</section>
-			<!-- About Us page -->
+			<!-- skills page -->
 			<hr/>
-			<section id="aboutUs" class="topics">
+			<section id="skills" class="topics">
 				<div class="row">
 					<div class="container">
 						<div class="row">
@@ -159,22 +161,30 @@
 					</div>
 				</div>
 			</section>
-				<!-- Modal -->
-				<div class="modal fade" id="experienceModal" >
-					<div class="modal-dialog modal-dialog-centered modal-md">  
-						<div class="modal-content">
-							<div class="modal-header">
-								<p><b>Gym experience Images</b></p>
-								<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-							</div>
-							<div class="modal-body">
-								<img src="" class="modal-img" alt="Modal Image">
-								<p>You can describe the image here</p>
-							</div>
-						</div>
+			<!-- Button trigger modal -->
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+				Launch demo modal
+			</button>
+			
+			<!-- Modal -->
+			<div class="modal" tabindex="-1">
+				<div class="modal-dialog">
+				  <div class="modal-content">
+					<div class="modal-header">
+					  <h5 class="modal-title">Modal title</h5>
+					  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 					</div>
+					<div class="modal-body">
+					  <p>Modal body text goes here.</p>
+					</div>
+					<div class="modal-footer">
+					  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+					  <button type="button" class="btn btn-primary">Save changes</button>
+					</div>
+				  </div>
 				</div>
-			</section>
+			  </div>
+			  
 			<br><br><br><br><br><br><br>
 			
 			<!-- Contact Us page -->

@@ -11,6 +11,13 @@ function showImage( event ) {
   const myModal = new bootstrap.Modal( document.getElementById( 'galleryModal' ) );
   myModal.show();
 }
+var myModal = document.getElementById('myModal')
+var myInput = document.getElementById('myInput')
+
+myModal.addEventListener('shown.bs.modal', function () {
+  myInput.focus()
+})
+
 
 // Function to show different category images based on drop down value
 function showGalleryCategoryImages() {
