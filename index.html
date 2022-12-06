@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="UTF-8" />
-	<title>Scrollspy - Home, About and Gallery</title>
+	<title>Cianan Nicolai</title>
 	
 	<!-- Link to Bootstrap Stylesheet-->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
@@ -12,7 +12,7 @@
 	<link rel="stylesheet" href="css/bootstrap_exercises.css">
 
 	<!-- Link to Bootstrap Icons-->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
 
 </head>
 
@@ -28,82 +28,143 @@
 					<a class="nav-link" href="#aboutUs">Skills</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#gallery">Gallery</a>
+					<a class="nav-link" href="#experience">Experience</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="#contactUs">Contact Us</a>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#contactUs">Github</a>
-					<i class="bi-github" role="img" aria-label="GitHub"></i>
-				</li>
 			</ul>
 		</div> <!-- End of class container fluid-->
 	</nav>
-  
+	
 	<!-- Content for each page is below-->
 	<div data-spy="scroll" data-target="#navbar-main" data-offset="0">
 		<main>
-			<!-- Home page -->
+			<!-- Home -->
 			<section id="home" class="topics">
-				<h4 class="text-white fw-bold">Welcome to my Home page</h4>
-				<p>Some text will go here</p>
+				<h2>Hi, I'm Cianan!</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+					Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+					Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+				</p>
+			
+				<div class="row">
+					<div class="col-2"><h5>Phone</h5></div>
+					<div class="col-8">086 666 6666</div>
+				</div>
+				<div class="row">
+					<div class="col-2"><h5>Email</h5></div>
+					<div class="col-8">contactcianan@gmail.com</div>
+				</div>
+				<div class="row">
+					<div class="col-2"><h5>Address</h5></div>
+					<div class="col-8">311 Fake Street, Fake Town, Fake County</div>
+				</div>
+				<div class="row">
+					<div class="col-2"><h5>Social</h5></div>
+					<div class="col-8">
+						<a href="google.com" class="btn bi bi-linkedin" role="button" style="font-size: 2rem;"></a>
+						<a href="https://github.com/CiananNicolai" class="btn bi bi-github" role="button" style="font-size: 2rem;"></a>
+					</div>
+				</div>
+				<br>
+				<div class="d-grid gap-2">
+					<button class="btn btn-primary" type="button">Download CV</button>
+					<button class="btn btn-secondary" type="button">Contact Me</button>
+				</div>
 			</section>
-			<hr/>
 			<!-- About Us page -->
+			<hr/>
 			<section id="aboutUs" class="topics">
-					  <div class="row">
-						<div class="container">
-							<div class="row">
-								<div class="col">
-									<h2>Skills</h2>
-									<p>I am inspired by creating great work with people who are as passionate as I am about building something awesome.</p>
-								</div>
-								<div class="col">
-									<h4>Web Development</h4>
-									<p>JavaScript, JAVA, Node.js, MongoDB, Python</p>
-									<hr/>
-								</div>
-									<div class="col">
+				<div class="row">
+					<div class="container">
+						<div class="row">
+							<div class="col">
+								<h2>Skills</h2>
+								<p>I am inspired by creating great work with people who are as passionate as I am about building something awesome.</p>
+							</div>
+							<div class="col">
+								<h4>Web Development</h4>
+								<p>JavaScript, JAVA, Node.js, MongoDB, Python</p>
+								<hr/>
+							</div>
+							<div class="col">
 								<h4>Frontend Development</h4>
 								<p>JavaScript, JAVA, Node.js, MongoDB, Python</p>
 								<hr/>
-							  </div>
+							</div>
 							</div>
 							<div class="row">
 								<div class="col">
-									<h4>##### </h4>
-									<i class="bi-bricks"></i>
-								</div>
-								<div class="col">
-									<h4>Backend Development</h4>
-									<p>JavaScript, JAVA, Node.js, MongoDB, Python</p>
-								</div>
-								<div class="col">
-									<h4>JavaScript</h4>
-									<p>JavaScript, JAVA, Node.js, MongoDB, Python</p>
-								</div>
+								<h4>##### </h4>
 							</div>
-						  </div>
-					</div> 
-				<hr />
-
-
-			<!-- Gallery page -->
-			<section id="gallery" class="topics">
-				<h4>Gallery</h4>
-				<p><b>Click on the image below to find out more information........</b>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-				when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into 
-				electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-				and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-				<br>
-
+							<div class="col">
+								<h4>Backend Development</h4>
+								<p>JavaScript, JAVA, Node.js, MongoDB, Python</p>
+							</div>
+							<div class="col">
+								<h4>JavaScript</h4>
+								<p>JavaScript, JAVA, Node.js, MongoDB, Python</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			<hr/>
+			</section>
+			<!-- experience page -->
+			<section id="experience" class="topics">
+				<div class="row"></div>
+					<div class="container"></div>
+						<div class="row">
+							<div class="col">
+								<h2>Experience</h2>
+								<p>I am inspired by creating great work with people who are as passionate as I am about building something awesome.</p>
+							</div>
+							<div class="col">
+								<h4>Frontend Development</h4>
+								<h5>Time Stuido May, 2022 - Present</h5>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+									Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+								<hr/>
+						  	</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<h4></h4>
+							</div>
+							<div class="col">
+								<h4>Frontend Development</h4>
+								<h5>Time Stuido May, 2022 - Present</h5>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+									Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+								<hr/>
+						  	</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<h4></h4>
+							</div>
+							<div class="col">
+								<h4>Frontend Development</h4>
+								<h5>Time Stuido May, 2022 - Present</h5>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+									Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+								<hr/>
+						  	</div>
+					  	</div>
+					</div>
+				</div>
+			</section>
 				<!-- Modal -->
-				<div class="modal fade" id="galleryModal" >
+				<div class="modal fade" id="experienceModal" >
 					<div class="modal-dialog modal-dialog-centered modal-md">  
 						<div class="modal-content">
 							<div class="modal-header">
-								<p><b>Gym Gallery Images</b></p>
+								<p><b>Gym experience Images</b></p>
 								<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 							</div>
 							<div class="modal-body">
@@ -118,9 +179,6 @@
 			
 			<!-- Contact Us page -->
 			<section id="contactUs" class="topics">
-				<h4>Contact Us</h4>
-				<p>We would love to hear from you. Use the contact details below to get in touch..</p><br>
-		  
 			</section> 
     
 		</main>
