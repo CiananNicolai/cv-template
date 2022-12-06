@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>Scrollspy - Home, About and Gallery</title>
+	
+	<!-- Link to Bootstrap Stylesheet-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+	<!-- Link to My Stylesheet-->
+	<link rel="stylesheet" href="css/bootstrap_exercises.css">
+
+	<!-- Link to Bootstrap Icons-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+</head>
+
+<body data-spy="scroll" data-target="#navbar-main" class="content">
+  
+	<!-- Navigation -->
+	<nav id="navbar-main" class="navbar navbar-dark bg-dark px-3 fixed-top">
+		<div class="container-fluid">
+			<a id="homeName" class="navbar-brand" href="#home">Home Page</a>
+			
+			<ul class="nav nav-pills">  
+				<li class="nav-item">
+					<a class="nav-link" href="#aboutUs">Skills</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#gallery">Gallery</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#contactUs">Contact Us</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#contactUs">Github</a>
+					<i class="bi-github" role="img" aria-label="GitHub"></i>
+				</li>
+			</ul>
+		</div> <!-- End of class container fluid-->
+	</nav>
+  
+	<!-- Content for each page is below-->
+	<div data-spy="scroll" data-target="#navbar-main" data-offset="0">
+		<main>
+			<!-- Home page -->
+			<section id="home" class="topics">
+				<h4 class="text-white fw-bold">Welcome to my Home page</h4>
+				<p>Some text will go here</p>
+			</section>
+			<hr/>
+			<!-- About Us page -->
+			<section id="aboutUs" class="topics">
+					  <div class="row">
+						<div class="container">
+							<div class="row">
+								<div class="col">
+									<h2>Skills</h2>
+									<p>I am inspired by creating great work with people who are as passionate as I am about building something awesome.</p>
+								</div>
+								<div class="col">
+									<h4>Web Development</h4>
+									<p>JavaScript, JAVA, Node.js, MongoDB, Python</p>
+									<hr/>
+								</div>
+									<div class="col">
+								<h4>Frontend Development</h4>
+								<p>JavaScript, JAVA, Node.js, MongoDB, Python</p>
+								<hr/>
+							  </div>
+							</div>
+							<div class="row">
+								<div class="col">
+									<h4>##### </h4>
+									<i class="bi-bricks"></i>
+								</div>
+								<div class="col">
+									<h4>Backend Development</h4>
+									<p>JavaScript, JAVA, Node.js, MongoDB, Python</p>
+								</div>
+								<div class="col">
+									<h4>JavaScript</h4>
+									<p>JavaScript, JAVA, Node.js, MongoDB, Python</p>
+								</div>
+							</div>
+						  </div>
+					</div> 
+				<hr />
+
+
+			<!-- Gallery page -->
+			<section id="gallery" class="topics">
+				<h4>Gallery</h4>
+				<p><b>Click on the image below to find out more information........</b>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+				when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into 
+				electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+				and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+				<br>
+
+				<!-- Modal -->
+				<div class="modal fade" id="galleryModal" >
+					<div class="modal-dialog modal-dialog-centered modal-md">  
+						<div class="modal-content">
+							<div class="modal-header">
+								<p><b>Gym Gallery Images</b></p>
+								<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+							</div>
+							<div class="modal-body">
+								<img src="" class="modal-img" alt="Modal Image">
+								<p>You can describe the image here</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<br><br><br><br><br><br><br>
+			
+			<!-- Contact Us page -->
+			<section id="contactUs" class="topics">
+				<h4>Contact Us</h4>
+				<p>We would love to hear from you. Use the contact details below to get in touch..</p><br>
+		  
+			</section> 
+    
+		</main>
+
+	</div> <!-- End of div data-spy="scroll" -->
+
+	<footer>
+        <b></b>
+    </footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+	<!-- My JavaScript file -->
+	<script src="scripts/myScripts.js"></script>  
+</body>
+</html>
