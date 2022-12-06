@@ -3,7 +3,7 @@ For your second CA, you are required to build an Interactive Portfolio Website u
 
 ## Portfolio Website
 
-Design & develop a webpage showcasing your talents and achievements. This website must be developed using Twitter Bootstrap as a base. Think of the page as your online CV, which you will show potential employers in the future. 
+Design & develop a webpage showcasing your talents and achievements. This website must be developed using Bootstrap as a base. Think of the page as your online CV, which you will show potential employers in the future. 
 The following requirements should give you a broad outline of what to include on your website. This is by no means a comprehensive list as you are expected to add your own style, creativity, and implementation of guidelines, that you have learned during our User Experience lectures. 
 - All details must be true
 - A hero component at the top of the page should include a photo and details such as your name & discipline etc.
