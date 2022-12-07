@@ -23,7 +23,7 @@
 	<!-- Navigation -->
 	<nav id="navbar-main" class="navbar navbar-dark bg-dark px-3 fixed-top">
 		<div class="container-fluid">
-			<a id="homeName" class="navbar-brand" href="#home">Home Page</a>
+			<a id="homeName" class="navbar-brand" href="#home">CV</a>
 			
 			<ul class="nav nav-pills">  
 				<li class="nav-item">
@@ -33,7 +33,10 @@
 					<a class="nav-link" href="#experience">Experience</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#contactUs">Contact Us</a>
+					<a class="nav-link" href="#education">Education</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#portfolio">Portfolio</a>
 				</li>
 			</ul>
 		</div> <!-- End of class container fluid-->
@@ -72,8 +75,8 @@
 				</div>
 				<br>
 				<div class="d-grid gap-2">
-					<button class="btn btn-primary" type="button">Download CV</button>
-					<button class="btn btn-secondary" type="button">Contact Me</button>
+					<button class="btn btn-primary" type="button" >Download CV</button>
+					<button class="btn btn-secondary" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Contact Me</button>
 				</div>
 			</section>
 			<!-- skills page -->
@@ -155,36 +158,140 @@
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 									Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-								<hr/>
 						  	</div>
 					  	</div>
 					</div>
 				</div>
 			</section>
+			<hr/>
+			<!-- education page -->
+			<section id="education" class="topics">
+				<div class="row"></div>
+					<div class="container"></div>
+						<div class="row">
+							<div class="col">
+								<h2>Education</h2>
+								<p>I am inspired by creating great work with people who are as passionate as I am about building something awesome.</p>
+							</div>
+							<div class="col">
+							<h4>Frontend Development</h4>
+							<h5>Time Stuido May, 2022 - Present</h5>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+									Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+								<hr/>
+							</div>
+							</div>
+							<div class="row">
+								<div class="col">
+									<h4></h4>
+								</div>
+								<div class="col">
+									<h4>Frontend Development</h4>
+									<h5>Time Stuido May, 2022 - Present</h5>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+										Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+										Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+									<hr/>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col">
+									<h4></h4>
+								</div>
+								<div class="col">
+									<h4>Frontend Development</h4>
+									<h5>Time Stuido May, 2022 - Present</h5>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+										Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+										Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+								</div>
+							</div>
+						</div>
+					</div>
+			</section>
+			<hr/>
+			<!-- Portfolio page -->
+			<section id="portfolio" class="topics">
+				<div class="row"></div>
+					<div class="container"></div>
+						<div class="row">
+							<div class="col">
+								<h2>Portfolio</h2>
+								<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+									<div class="carousel-indicators">
+									  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+									  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+									  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+									</div>
+									<div class="carousel-inner">
+									  <div class="carousel-item active" data-bs-interval="10000">
+										<img src="images/fourthyearimage.png" class="d-block w-100" alt="..." style="height:600px; width:1000px;">
+										<div class="carousel-caption d-none d-md-block">
+											<div class="text-white bg-dark"><h5>4th Year Project</h5></div>
+											<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+												Launch demo modal
+											</button>
+										</div>
+									  </div>
+									  <div class="carousel-item" data-bs-interval="2000">
+										<img src="images/thirdyearimage.jpg" class="d-block w-100" alt="images/placeholder.jpg" style="height:600px; width:1000px;">
+										<div class="carousel-caption d-none d-md-block">
+											<div class="text-white bg-dark"><h5>3rd Year Project</h5></div>
+											<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+												Launch demo modal
+											</button>
+										</div>
+									  </div>
+									  <div class="carousel-item">
+										<img src="images/secondyearimage.png" class="d-block w-100" alt="images/placeholder.jpg" style="height:600px; width:1000px;">
+										<div class="carousel-caption d-none d-md-block">
+											<div class="text-white bg-dark"><h5>2nd Year Project</h5></div>
+											<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+												Launch demo modal
+											</button>
+										</div>
+									  </div>
+									</div>
+									<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+									  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+									  <span class="visually-hidden">Previous</span>
+									</button>
+									<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+									  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+									  <span class="visually-hidden">Next</span>
+									</button>
+								  </div>
+							</div>
+						</div>
+					</div>
+			</section>
+
+			
 			<!-- Button trigger modal -->
-			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+			<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
 				Launch demo modal
 			</button>
 			
 			<!-- Modal -->
-			<div class="modal" tabindex="-1">
+			<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 				<div class="modal-dialog">
-				  <div class="modal-content">
+				<div class="modal-content">
 					<div class="modal-header">
-					  <h5 class="modal-title">Modal title</h5>
-					  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					<h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 					</div>
 					<div class="modal-body">
-					  <p>Modal body text goes here.</p>
+					...
 					</div>
 					<div class="modal-footer">
-					  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-					  <button type="button" class="btn btn-primary">Save changes</button>
+					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save changes</button>
 					</div>
-				  </div>
 				</div>
-			  </div>
-			  
+				</div>
+			</div>
+  
 			<br><br><br><br><br><br><br>
 			
 			<!-- Contact Us page -->
