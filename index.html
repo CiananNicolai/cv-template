@@ -78,8 +78,7 @@
 				<img src="images/photoshop.jpg" style="height:30px; width:30px;"> Photoshop
 				<hr/>
 				<div class="d-grid gap-2">
-					<button class="btn btn-primary" type="button" >Download CV</button>
-					<button class="btn btn-secondary" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Contact Form</button>
+					<a class="btn btn-primary" href="images/cv.txt" role="button">Download</a>
 					<button class="btn btn-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Contact Information</button>
 				</div>
 			</section>
@@ -186,9 +185,7 @@
 							<div class="col">
 							<h4>Technological University Dublin</h4>
 							<h5>Honours Bachelor Degree, 2020 - 2023</h5>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-									Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+								<p>TU Dublin was TU Tallaght when I first went to it, I orginally chose the Software Stream but that was changed to General Entry in Computing.</p>
 								<div class="row">
 									<div class="col">
 										<div class="container text-center">
@@ -418,9 +415,7 @@
 								<div class="col">
 									<h4>Cenit College</h4>
 									<h5>Higher Certicficate, 2017 - 2018</h5>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-										Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-										Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+									<p>Cenit College had a link with Intel that provided Mechnical Technicians. It's esentially a two year course in one year. </p>
 								</div>
 							</div>
 			</section>
@@ -480,25 +475,20 @@
 				</section>
 			</div>
 			
-			<!-- Button trigger modal -->
-			<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-				Launch demo modal
-			</button>
-			
 			<!-- Modal -->
 			<div class="modal fade" id="fourthyearproject" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 				<div class="modal-dialog">
 				<div class="modal-content">
 					<div class="modal-header">
-					<h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+					<h1 class="modal-title fs-5" id="exampleModalLabel">4th Year Project - Short Range Social Application</h1>
 					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 					</div>
 					<div class="modal-body">
-					god is dead
+					My fourth year project was done over two semesters and was ment to display proficiency in all the subjects I had done up until then. My acumulative knowledge and experience.
+					The framework I used was Django (Python) mixed with JS and Vue.js. The database was produced with sqlite. 
 					</div>
 					<div class="modal-footer">
 					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-					<button type="button" class="btn btn-primary">Save changes</button>
 					</div>
 				</div>
 				</div>
@@ -508,15 +498,15 @@
 				<div class="modal-dialog">
 				<div class="modal-content">
 					<div class="modal-header">
-					<h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+					<h1 class="modal-title fs-5" id="exampleModalLabel">3rd Year Project - To-Do List</h1>
 					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 					</div>
 					<div class="modal-body">
-					...
+					 My third year project was done within SAP using SAP systems, it was group work and while technical the main point was to display planning and production quality.
+					 It was coded in Java, JS, used XLMX for webpages. I learned a lot about Fiori and SAPUI5 and it has made me interested in these topics as I had spent so much time coding.
 					</div>
 					<div class="modal-footer">
 					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-					<button type="button" class="btn btn-primary">Save changes</button>
 					</div>
 				</div>
 				</div>
@@ -526,15 +516,14 @@
 				<div class="modal-dialog">
 				<div class="modal-content">
 					<div class="modal-header">
-					<h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+					<h1 class="modal-title fs-5" id="exampleModalLabel">2nd Year Project - Cinema Website</h1>
 					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 					</div>
 					<div class="modal-body">
-					...
+					My second year project was done in a group of three using Django and mainly revolved around building a cinema website. This was a very deep learning experience at the time as it was my first major project done in group work. It's what helped me learn Django.
 					</div>
 					<div class="modal-footer">
 					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-					<button type="button" class="btn btn-primary">Save changes</button>
 					</div>
 				</div>
 				</div>
@@ -548,7 +537,20 @@
 					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 					</div>
 					<div class="modal-body">
-					...
+						<form>
+							<div class="form-group row">
+							  <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+							  <div class="col-sm-10">
+								<input type="text" readonly class="form-control-plaintext" id="staticEmail" value="email@example.com">
+							  </div>
+							</div>
+							<div class="form-group row">
+							  <label for="inputtext" class="col-sm-2 col-form-label">Password</label>
+							  <div class="col-sm-10">
+								<input type="password" class="form-control" id="inputPassword" placeholder="Password">
+							  </div>
+							</div>
+						  </form>
 					</div>
 					<div class="modal-footer">
 					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
