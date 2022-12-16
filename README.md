@@ -29,3 +29,18 @@ The following requirements should give you a broad outline of what to include on
 -	Have you applied the theory discussed in class to your design?
 -	Is your interface usable & legible on mobile, tablet and desktop devices?
 -	Design, functionality, complexity, and completeness.
+
+## Bootstrap Features Used
+
+- Buttons
+- Modals
+- Dropdowns
+- Carousel
+- Scrollspy
+- Containers
+- Cols
+- Rows
+- Offcanvas
+- Tables
+- Grid
+- Nav Bar
