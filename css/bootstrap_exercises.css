@@ -10,42 +10,25 @@ body {
   margin: 2rem;
 }
 
-.nav-link {
-  color: white;
-}
 
 .nav-link:hover {
-  color: yellow;
   align-items: baseline;
 }
-
-#aboutUsAwards img {
-  transition: transform 0.7s ease-in-out;
-}
-#aboutUsAwards img:hover {
-  transform: rotate(360deg);
-}
-
 #homeName,
 h4,
 th {
   color: #1f75fe;
-  font-weight: bold;
   /*Primary color: #0275d8 this is what the Bootstrap primary colour is*/
 }
 
-table thead {
-  background-color: black;
-}
-table th {
-  color: white;
-  text-align: left;
-}
-table td {
-  text-align: left;
-}
 
 .content {
   width: 1100px;
   margin: auto;
+  }
+.dropdown-menu {
+    min-width:600px;
+}
+img {
+    border-radius: 50%;
   }

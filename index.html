@@ -14,6 +14,8 @@
 	<!-- Link to Bootstrap Icons-->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
 
+	
+
 	<script src="myScripts.js"></script> 
 
 </head>
@@ -21,11 +23,14 @@
 <body data-spy="scroll" data-target="#navbar-main" class="content">
   
 	<!-- Navigation -->
-	<nav id="navbar-main" class="navbar navbar-dark bg-dark px-3 fixed-top">
+	<nav id="navbar-main" class="navbar navbar-dark px-3 fixed-top" style="background-color: #e3f2fd;">
 		<div class="container-fluid">
-			<a id="homeName" class="navbar-brand" href="#home">CV</a>
+			<a id="homeName" class="navbar-brand" href="#home"><i class="bi bi-house"></i> Home</a>
 			
 			<ul class="nav nav-pills">  
+				<li class="nav-item">
+					<a class="nav-link" href="#home">Home</a>
+				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="#skills">Skills</a>
 				</li>
@@ -45,38 +50,37 @@
 	<!-- Content for each page is below-->
 	<div data-spy="scroll" data-target="#navbar-main" data-offset="0">
 		<main>
+			
+			<div class="col align-self-center">
 			<!-- Home -->
 			<section id="home" class="topics">
-				<h2>Hi, I'm Cianan!</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-					Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-					Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-				</p>
-			
-				<div class="row">
-					<div class="col-2"><h5>Phone</h5></div>
-					<div class="col-8">086 666 6666</div>
-				</div>
-				<div class="row">
-					<div class="col-2"><h5>Email</h5></div>
-					<div class="col-8">contactcianan@gmail.com</div>
-				</div>
-				<div class="row">
-					<div class="col-2"><h5>Address</h5></div>
-					<div class="col-8">311 Fake Street, Fake Town, Fake County</div>
-				</div>
-				<div class="row">
-					<div class="col-2"><h5>Social</h5></div>
-					<div class="col-8">
-						<a href="google.com" class="btn bi bi-linkedin" role="button" style="font-size: 2rem;"></a>
-						<a href="https://github.com/CiananNicolai" class="btn bi bi-github" role="button" style="font-size: 2rem;"></a>
+				<div class="container">
+					<div class="row">
+						<img src="images/me.jpg" class="" style="border-radius: 50%; max-width: 30%;" alt="...">
+					  <div class="col align-self-start">
+						<h2>Hi, I'm Cianan!</h2>
+						<p>I'm a graduate of Technological University Dublin, with Honours Bachelor Degree in Computer Science! I'm hard working individual who just wants to sit down and work away,
+							while I do enjoy getting stuck in I find working with others beneficial to my thought process! I'm a relaxed person but I take time management seriously
+							and I'll always aim to do anything five minutes earlier than required.
+						</p>
+					  </div>
 					</div>
-				</div>
-				<br>
+				<hr/>
+				<h4>Computing Interests and Hobbies</h4>
+				<p>Topics that interest me the most in computing are Machine Learning, Automation and Backend Development! Of course this doesn't mean I am not suited
+					other postions in different places in the computing industry, as recent graduate I would be up to experience any kind of enviornment or sector! That is
+					to say, I love learning about any aspect of Computing.
+				</p>
+				<img src="images/creativewriting.png" style="height:30px; width:30px;"> Creative Writing
+				<img src="images/machinelearning.png" style="height:30px; width:30px;"> Machine Learning
+				<img src="images/videogames.png" style="height:30px; width:30px;"> Video Games
+				<img src="images/475664.png" style="height:30px; width:30px;"> Public Transport
+				<img src="images/photoshop.jpg" style="height:30px; width:30px;"> Photoshop
+				<hr/>
 				<div class="d-grid gap-2">
 					<button class="btn btn-primary" type="button" >Download CV</button>
-					<button class="btn btn-secondary" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Contact Me</button>
+					<button class="btn btn-secondary" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Contact Form</button>
+					<button class="btn btn-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Contact Information</button>
 				</div>
 			</section>
 			<!-- skills page -->
@@ -87,36 +91,38 @@
 						<div class="row">
 							<div class="col">
 								<h2>Skills</h2>
-								<p>I am inspired by creating great work with people who are as passionate as I am about building something awesome.</p>
+								<p>My skills have grown but there is always room to learn more, </p>
 							</div>
 							<div class="col">
 								<h4>Web Development</h4>
-								<p>JavaScript, JAVA, Node.js, MongoDB, Python</p>
+								<p>Blazor, Django, SAP UI5
+
+								</p>
 								<hr/>
 							</div>
 							<div class="col">
 								<h4>Frontend Development</h4>
-								<p>JavaScript, JAVA, Node.js, MongoDB, Python</p>
+								<p>JavaScript, HTML, CSS, Vue.js</p>
 								<hr/>
 							</div>
 							</div>
 							<div class="row">
 								<div class="col">
-								<h4>##### </h4>
+								<h4> </h4>
 							</div>
 							<div class="col">
 								<h4>Backend Development</h4>
-								<p>JavaScript, JAVA, Node.js, MongoDB, Python</p>
+								<p>Python, C++, C#, Node.js, Java</p>
 							</div>
 							<div class="col">
-								<h4>JavaScript</h4>
-								<p>JavaScript, JAVA, Node.js, MongoDB, Python</p>
+								<h4>Database Management</h4>
+								<p>Oracle, MongoDB, MySQL, SQLite, SAP HANA</p>
 							</div>
 						</div>
 					</div>
 				</div>
-			<hr/>
 			</section>
+			<hr/>
 			<!-- experience page -->
 			<section id="experience" class="topics">
 				<div class="row"></div>
@@ -124,14 +130,13 @@
 						<div class="row">
 							<div class="col">
 								<h2>Experience</h2>
-								<p>I am inspired by creating great work with people who are as passionate as I am about building something awesome.</p>
+								<p>My professional career is just beginning but I have these companies to thank for employment! Other positions I've held are listed on my CV. </p>
 							</div>
 							<div class="col">
-								<h4>Frontend Development</h4>
-								<h5>Time Stuido May, 2022 - Present</h5>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-									Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+								<h4>SAP Intern</h4>
+								<h5>SAP CoE Ireland, December 2022 - August 2022</h5>
+								<p>I worked at SAP as part of my college internship semester, I had a great time working there and it was interesting to be
+									working at home for the majority of the internship due to Covid-19. </p>
 								<hr/>
 						  	</div>
 						</div>
@@ -140,11 +145,9 @@
 								<h4></h4>
 							</div>
 							<div class="col">
-								<h4>Frontend Development</h4>
-								<h5>Time Stuido May, 2022 - Present</h5>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-									Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+								<h4>Manufacturing Technician</h4>
+								<h5>Westerwood Global, July 2019 - June 2019</h5>
+								<p>I worked at Westerwood Global as part of a one month contract, again within Intel, unfortunately there were no positions avaliable afterward. </p>
 								<hr/>
 						  	</div>
 						</div>
@@ -153,15 +156,22 @@
 								<h4></h4>
 							</div>
 							<div class="col">
-								<h4>Frontend Development</h4>
-								<h5>Time Stuido May, 2022 - Present</h5>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-									Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+								<h4>Manufacturing Technician</h4>
+								<h5>Retronix Semiconductor, January 2019 - April 2019</h5>
+								<p>I worked at Retronix as part of a contract, it was shift work and inside Intel. Unfortunately the contract ended after the four months, </p>
+								<hr/>
 						  	</div>
 					  	</div>
-					</div>
-				</div>
+						  <div class="row">
+							<div class="col">
+								<h4></h4>
+							</div>
+							<div class="col">
+								<h4>Intern Maintenenace Technician</h4>
+								<h5>FAAC, Nov 2018 - Dec 2018</h5>
+								<p>I had an internship here during my Manufacturing Technician Level 6 Degree. </p>
+						  	</div>
+					  	</div>
 			</section>
 			<hr/>
 			<!-- education page -->
@@ -171,14 +181,233 @@
 						<div class="row">
 							<div class="col">
 								<h2>Education</h2>
-								<p>I am inspired by creating great work with people who are as passionate as I am about building something awesome.</p>
+								<p>My path to education is only beginning, I hope to always be learning even while working!</p>
 							</div>
 							<div class="col">
-							<h4>Frontend Development</h4>
-							<h5>Time Stuido May, 2022 - Present</h5>
+							<h4>Technological University Dublin</h4>
+							<h5>Honours Bachelor Degree, 2020 - 2023</h5>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 									Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+								<div class="row">
+									<div class="col">
+										<div class="container text-center">
+											<div class="row">
+											  <div class="col">
+												<div class="dropdown">
+													<button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+													  Year One
+													</button>
+													<ul class="dropdown-menu">
+														<div class="container text-center">
+															<div class="row">
+															  <div class="col">
+																<h4>Semester 1</h4>
+																<ul class="list-group">
+																	<li class="list-group-item">Computer Architecture</li>
+																	<li class="list-group-item">Critical Skills Development</li>
+																	<li class="list-group-item">Business & Information Systems</li>
+																	<li class="list-group-item">Discrete Mathematics 1</li>
+																	<li class="list-group-item">Software Development 1</li>
+																	<li class="list-group-item">Visual Design & User Experience</li>
+																</ul>
+															  </div>
+															  <div class="col">
+																<h4>Semester 2</h4>
+																<ul class="list-group">
+																	<li class="list-group-item">Social Media Communications</li>
+																	<li class="list-group-item">Database Fundamentals</li>
+																	<li class="list-group-item">Operating Systems Fundamentals</li>
+																	<li class="list-group-item">Statistics</li>
+																	<li class="list-group-item">Software Development 2</li>
+																	<li class="list-group-item">Systems Analysis</li>
+															  </div>
+															  <table class="table">
+																<thead class="thead">
+																  <tr>
+																	<th scope="col"></th>
+																	<th scope="col"></th>
+																	<th scope="col"></th>
+																	<th scope="col"></th>
+																  </tr>
+																</thead>
+																<tbody>
+																  <tr>
+																	<th scope="row"></th>
+																	<td>GPA</td>
+																	<td>x.xx</td>
+																	<td> </td>
+																  </tr>
+
+																</tbody>
+															  </table>
+															</div>
+														  </div>
+													</ul>
+	
+												</div>
+											  </div>
+											  <div class="col">
+												<div class="dropdown">
+													<button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+													  Year Two
+													</button>
+													<ul class="dropdown-menu">
+														<div class="container text-center">
+															<div class="row">
+															  <div class="col">
+																<h4>Semester 3</h4>
+																<ul class="list-group">
+																	<li class="list-group-item">Advanced Database Technologies</li>
+																	<li class="list-group-item">Discrete Mathematics 2</li>
+																	<li class="list-group-item">Network Fundamentals</li>
+																	<li class="list-group-item">Software Quality Assurance and Testing</li>
+																	<li class="list-group-item">Software Development 3</li>
+																	<li class="list-group-item">Client-Side Web Development</li>
+																</ul>
+															  </div>
+															  <div class="col">
+																<h4>Semester 4</h4>
+																<ul class="list-group">
+																	<li class="list-group-item">Data Administration and Analysis</li>
+																	<li class="list-group-item">Management Science</li>
+																	<li class="list-group-item">Routing & Switching Essentials</li>
+																	<li class="list-group-item">Project</li>
+																	<li class="list-group-item">Information Security</li>
+																	<li class="list-group-item">Software Development 4</li>
+															  </div>
+															  <table class="table">
+																<thead class="thead">
+																  <tr>
+																	<th scope="col"></th>
+																	<th scope="col"></th>
+																	<th scope="col"></th>
+																	<th scope="col"></th>
+																  </tr>
+																</thead>
+																<tbody>
+																  <tr>
+																	<th scope="row"></th>
+																	<td>GPA</td>
+																	<td>x.xx</td>
+																	<td> </td>
+																  </tr>
+
+																</tbody>
+															  </table>
+															</div>
+														  </div>
+													</ul>
+												  </div>
+											  </div>
+											  <div class="col">
+												<div class="dropdown">
+													<button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+													  Year Three
+													</button>
+													<ul class="dropdown-menu">
+														<div class="container text-center">
+															<div class="row">
+															  <div class="col">
+																<h4>Semester 5</h4>
+																<ul class="list-group">
+																	<li class="list-group-item">Data Structures and Algorithms</li>
+																	<li class="list-group-item">Cloud Services & Distributed Computing</li>
+																	<li class="list-group-item">Innovation & Entrepreneurship (Elective)</li>
+																	<li class="list-group-item">Big Data Technologies</li>
+																	<li class="list-group-item">Operating Systems</li>
+																	<li class="list-group-item">Server-Side Web Development</li>
+																</ul>
+															  </div>
+															  <div class="col">
+																<h4>Semester 6</h4>
+																<ul class="list-group">
+																	<li class="list-group-item">
+																		Experiential Learning
+																	</li>
+															  </div>
+															  <table class="table">
+																<thead class="thead">
+																  <tr>
+																	<th scope="col"></th>
+																	<th scope="col"></th>
+																	<th scope="col"></th>
+																	<th scope="col"></th>
+																  </tr>
+																</thead>
+																<tbody>
+																  <tr>
+																	<th scope="row"></th>
+																	<td>GPA</td>
+																	<td>x.xx</td>
+																	<td> </td>
+																  </tr>
+
+																</tbody>
+															  </table>
+															</div>
+														  </div>
+													</ul>
+												  </div>
+											  </div>
+											  <div class="col">
+												  <br>
+												<div class="dropdown">
+													<button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+													  Year Four
+													</button>
+													<ul class="dropdown-menu">
+														<div class="container text-center">
+															<div class="row">
+															  <div class="col">
+																<h4>Semester 7</h4>
+																<ul class="list-group">
+																	<li class="list-group-item">Applied Machine Learning (Elective)</li>
+																	<li class="list-group-item">Interactive Media Design & Visualisation</li>
+																	<li class="list-group-item">Information Management</li>
+																	<li class="list-group-item">Enterprise Applications Development 1</li>
+																	<li class="list-group-item">Enterprise Performance Architecture 1</li>
+																	<li class="list-group-item">Project</li>
+																</ul>
+															  </div>
+															  <div class="col">
+																<h4>Semester 8</h4>
+																<ul class="list-group">
+																	<li class="list-group-item">Applied Artificial Intelligence and Deep Learning (Elective)</li>
+																	<li class="list-group-item">Computational Theory</li>
+																	<li class="list-group-item">Enterprise Applications Development 2</li>
+																	<li class="list-group-item">Enterprise Performance Architecture 2</li>
+																	<li class="list-group-item">Project</li>
+																	<li class="list-group-item">Computational Theory</li>
+															  </div>
+																<table class="table">
+																	<thead class="thead">
+																	<tr>
+																		<th scope="col"></th>
+																		<th scope="col"></th>
+																		<th scope="col"></th>
+																		<th scope="col"></th>
+																	</tr>
+																	</thead>
+																	<tbody>
+																	<tr>
+																		<th scope="row"></th>
+																		<td>GPA</td>
+																		<td>x.xx</td>
+																		<td> </td>
+																	</tr>
+
+																	</tbody>
+																</table>
+															</div>
+														  </div>
+													</ul>
+												  </div>
+											  </div>
+											</div>
+										  </div>
+									</div>
+								</div>
 								<hr/>
 							</div>
 							</div>
@@ -187,28 +416,13 @@
 									<h4></h4>
 								</div>
 								<div class="col">
-									<h4>Frontend Development</h4>
-									<h5>Time Stuido May, 2022 - Present</h5>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-										Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-										Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-									<hr/>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col">
-									<h4></h4>
-								</div>
-								<div class="col">
-									<h4>Frontend Development</h4>
-									<h5>Time Stuido May, 2022 - Present</h5>
+									<h4>Cenit College</h4>
+									<h5>Higher Certicficate, 2017 - 2018</h5>
 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 										Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 										Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
 								</div>
 							</div>
-						</div>
-					</div>
 			</section>
 			<hr/>
 			<!-- Portfolio page -->
@@ -229,8 +443,8 @@
 										<img src="images/fourthyearimage.png" class="d-block w-100" alt="..." style="height:600px; width:1000px;">
 										<div class="carousel-caption d-none d-md-block">
 											<div class="text-white bg-dark"><h5>4th Year Project</h5></div>
-											<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-												Launch demo modal
+											<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#fourthyearproject">
+												Description
 											</button>
 										</div>
 									  </div>
@@ -238,8 +452,8 @@
 										<img src="images/thirdyearimage.jpg" class="d-block w-100" alt="images/placeholder.jpg" style="height:600px; width:1000px;">
 										<div class="carousel-caption d-none d-md-block">
 											<div class="text-white bg-dark"><h5>3rd Year Project</h5></div>
-											<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-												Launch demo modal
+											<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#thirdyearproject">
+												Description
 											</button>
 										</div>
 									  </div>
@@ -247,8 +461,8 @@
 										<img src="images/secondyearimage.png" class="d-block w-100" alt="images/placeholder.jpg" style="height:600px; width:1000px;">
 										<div class="carousel-caption d-none d-md-block">
 											<div class="text-white bg-dark"><h5>2nd Year Project</h5></div>
-											<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-												Launch demo modal
+											<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#secondyearproject">
+												Description
 											</button>
 										</div>
 									  </div>
@@ -263,10 +477,8 @@
 									</button>
 								  </div>
 							</div>
-						</div>
-					</div>
-			</section>
-
+				</section>
+			</div>
 			
 			<!-- Button trigger modal -->
 			<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -274,6 +486,60 @@
 			</button>
 			
 			<!-- Modal -->
+			<div class="modal fade" id="fourthyearproject" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+					<h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+					god is dead
+					</div>
+					<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save changes</button>
+					</div>
+				</div>
+				</div>
+			</div>
+
+			<div class="modal fade" id="thirdyearproject" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+					<h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+					...
+					</div>
+					<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save changes</button>
+					</div>
+				</div>
+				</div>
+			</div>
+
+			<div class="modal fade" id="secondyearproject " tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+					<h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+					...
+					</div>
+					<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save changes</button>
+					</div>
+				</div>
+				</div>
+			</div>
+
 			<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 				<div class="modal-dialog">
 				<div class="modal-content">
@@ -291,14 +557,57 @@
 				</div>
 				</div>
 			</div>
-  
-			<br><br><br><br><br><br><br>
+
 			
-			<!-- Contact Us page -->
-			<section id="contactUs" class="topics">
-			</section> 
-    
-		</main>
+
+				<div class="offcanvas offcanvas-start show" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+				<div class="offcanvas-header">
+					<h3 class="offcanvas-title" id="offcanvasScrollingLabel">Contact Information</h3>
+					<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+				</div>
+				<div class="offcanvas-body">
+					<table class="table">
+						<thead class="thead-light">
+						  <tr>
+							<th scope="col"></th>
+							<th scope="col"></th>
+							<th scope="col"></th>
+							<th scope="col"></th>
+						  </tr>
+						</thead>
+						<tbody>
+						  <tr>
+							<th scope="row"></th>
+							<td>Phone</td>
+							<td>Please contact me via email!</td>
+							<td> </td>
+						  </tr>
+						  <tr>
+							<th scope="row"></th>
+							<td>Email</td>
+							<td>contactcianan@gmail</td>
+							<td> </td>
+						  </tr>
+						  <tr>
+							<th scope="row"></th>
+							<td>Address</td>
+							<td>Dublin, Ireland</td>
+							<td> </td>
+						  </tr>
+						  <tr>
+							<th scope="row"></th>
+							<td>Social</td>
+							<td><a href="https://www.linkedin.com/in/cianan-nicolai-541a15169/" class="btn bi bi-linkedin" role="button" style="font-size:30px;"></a>
+								<a href="https://github.com/CiananNicolai" class="btn bi bi-github" role="button" style="font-size:30px;"></a></td>
+							<td> </td>
+						  </tr>
+						</tbody>
+					  </table>
+				</div>
+				</div>
+  
+			<br><br><br>
+			
 
 	</div> <!-- End of div data-spy="scroll" -->
 

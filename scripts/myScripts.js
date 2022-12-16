@@ -18,20 +18,3 @@ myModal.addEventListener('shown.bs.modal', function () {
   myInput.focus()
 })
 
-
-// Function to show different category images based on drop down value
-function showGalleryCategoryImages() {
-
-  if ( document.getElementById("gallerySelect").value == 1 ) {
-    document.getElementById("Cardiovascular").style.display = "block";
-    document.getElementById("Weights").style.display = "block";
-  }
-  else if ( document.getElementById("gallerySelect").value == 2 ) {
-    document.getElementById("Weights").style.display = "none"
-    document.getElementById("Cardiovascular").style.display = "block";
-  }
-  else {
-    document.getElementById("Cardiovascular").style.display = "none"
-    document.getElementById("Weights").style.display = "block";
-  }
-}
